@@ -42,6 +42,16 @@
     "at": "2026-10-25T18:00:00+03:00"
   },
   {
+    "id": "oct26-carousel-banyo-zamani",
+    "kind": "CAROUSEL",
+    "file": [
+      "media/v2_post_yeni_sarki_TR.jpg",
+      "media/v2_post_yeni_sarki_EN.jpg"
+    ],
+    "at": "2026-10-26T18:00:00+03:00",
+    "caption": "Yeni şarkımız yayında! 🛁 \"Banyo Zamanı!\" Pofu köpüklü banyosunu yapıyor, Duru da yardım ediyor. Banyo saatini şarkıyla eğlenceye çevirin! Tamamı YouTube'da: @pofulandtr\n\nOur new song \"Bath Time, Pofu!\" is out! 🫧 Make bath time fun – watch on YouTube: @pofulandkids\n\nSizin minik banyoyu seviyor mu? 💬 Does your little one love bath time?\n#çocukşarkıları #bebekşarkıları #okulöncesi #banyoşarkısı #DuruVePofu #Pofuland #anneçocuk #kidssongs #nurseryrhymes #toddlersongs #bathsong #preschool #DuruAndPofu #Pofuland"
+  },
+  {
     "id": "oct27-reel-tr-short2",
     "kind": "REELS",
     "file": "media/06_reel_TR_short2.mp4",
@@ -56,5 +66,53 @@
     "cover": "media/07_reel_EN_short3_kapak.jpg",
     "caption": "Breakfast time! 🍓 Yummy breakfast, then off to play. Bye-bye! 👋🐶\nFull song on YouTube: @pofulandkids\n#kidssongs #nurseryrhymes #toddlersongs #preschool #DuruAndPofu #Pofuland",
     "at": "2026-10-29T18:00:00+03:00"
+  },
+  {
+    "id": "oct31-reel-tr-banyo1",
+    "kind": "REELS",
+    "file": "media/v2_reel_TR_short1.mp4",
+    "cover": "media/v2_reel_TR_short1_kapak.jpg",
+    "caption": "Şıp şıp şıp, banyo zamanı! 🛁 Köpükler büyüdü, Pofu küvete atladı! 🐶🫧\nŞarkının tamamı YouTube'da: @pofulandtr\n\nSplish splash, it's bath time! 🇬🇧 @pofulandkids\n#çocukşarkıları #bebekşarkıları #okulöncesi #banyoşarkısı #DuruVePofu #Pofuland #anneçocuk",
+    "at": "2026-10-31T18:00:00+03:00"
+  },
+  {
+    "id": "nov02-reel-en-banyo1",
+    "kind": "REELS",
+    "file": "media/v2_reel_EN_short1.mp4",
+    "cover": "media/v2_reel_EN_short1_kapak.jpg",
+    "caption": "Splish, splash, it's bath time! 🛁 Bubbles, bubbles, watch them grow – and in jumps Pofu! 🐶🫧\nFull song on YouTube: @pofulandkids\n\nTürkçesi: Banyo Zamanı! 🇹🇷 @pofulandtr\n#kidssongs #nurseryrhymes #toddlersongs #bathsong #preschool #DuruAndPofu #Pofuland",
+    "at": "2026-11-02T18:00:00+03:00"
+  },
+  {
+    "id": "nov04-reel-tr-banyo2",
+    "kind": "REELS",
+    "file": "media/v2_reel_TR_short2.mp4",
+    "cover": "media/v2_reel_TR_short2_kapak.jpg",
+    "caption": "Ellerini yıka, ov ov ov! 🧼 Parmakları say: bir, iki, üç! Pofu da patisini yıkıyor 🐾\nŞarkının tamamı YouTube'da: @pofulandtr\n\nWash, rub, scrub! 🇬🇧 @pofulandkids\n#çocukşarkıları #bebekşarkıları #okulöncesi #banyoşarkısı #DuruVePofu #Pofuland #anneçocuk",
+    "at": "2026-11-04T18:00:00+03:00"
+  },
+  {
+    "id": "nov06-reel-en-banyo2",
+    "kind": "REELS",
+    "file": "media/v2_reel_EN_short2.mp4",
+    "cover": "media/v2_reel_EN_short2_kapak.jpg",
+    "caption": "Wash your hands, rub, rub, rub! 🧼 One, two, three – Pofu washes his paws with me 🐾\nFull song on YouTube: @pofulandkids\n\nTürkçesi 🇹🇷 @pofulandtr\n#kidssongs #nurseryrhymes #toddlersongs #bathsong #preschool #DuruAndPofu #Pofuland",
+    "at": "2026-11-06T18:00:00+03:00"
+  },
+  {
+    "id": "nov08-reel-tr-banyo3",
+    "kind": "REELS",
+    "file": "media/v2_reel_TR_short3.mp4",
+    "cover": "media/v2_reel_TR_short3_kapak.jpg",
+    "caption": "Ördekçik yüzer vak vak vak, Pofu silkelendi... şlap! 😂🦆🐶\nŞarkının tamamı YouTube'da: @pofulandtr\n\nQuack quack, splash! 🇬🇧 @pofulandkids\n#çocukşarkıları #bebekşarkıları #okulöncesi #banyoşarkısı #DuruVePofu #Pofuland #anneçocuk",
+    "at": "2026-11-08T18:00:00+03:00"
+  },
+  {
+    "id": "nov10-reel-en-banyo3",
+    "kind": "REELS",
+    "file": "media/v2_reel_EN_short3.mp4",
+    "cover": "media/v2_reel_EN_short3_kapak.jpg",
+    "caption": "Little duck goes quack, quack, quack – then Pofu shakes... SPLASH! 😂🦆🐶\nFull song on YouTube: @pofulandkids\n\nTürkçesi 🇹🇷 @pofulandtr\n#kidssongs #nurseryrhymes #toddlersongs #bathsong #preschool #DuruAndPofu #Pofuland",
+    "at": "2026-11-10T18:00:00+03:00"
   }
 ]
