@@ -306,6 +306,20 @@ def cmd_due(args):
         due = [i for i in load_schedule()
                if parse_at(i["at"]) <= now and i["id"] not in done
                and fails.get(i["id"], 0) < MAX_ATTEMPTS]
+        if not due and args.lead_minutes:
+            # GitHub cron can start hours late, so runs start early and wait for the exact time.
+            horizon = now + dt.timedelta(minutes=args.lead_minutes)
+            soon = sorted((parse_at(i["at"]), i["id"]) for i in load_schedule()
+                          if now < parse_at(i["at"]) <= horizon and i["id"] not in done
+                          and fails.get(i["id"], 0) < MAX_ATTEMPTS)
+            if soon:
+                wait = (soon[0][0] - now).total_seconds()
+                print(f"waiting {wait / 60:.0f} min for {soon[0][1]}")
+                time.sleep(wait + 5)
+                now = dt.datetime.now(dt.timezone.utc)
+                due = [i for i in load_schedule()
+                       if parse_at(i["at"]) <= now and i["id"] not in done
+                       and fails.get(i["id"], 0) < MAX_ATTEMPTS]
         if not due:
             print("nothing due")
             return
@@ -340,6 +354,7 @@ def main():
     p.set_defaults(func=cmd_publish)
     p = sub.add_parser("due")
     p.add_argument("--yes", action="store_true")
+    p.add_argument("--lead-minutes", type=int, default=0, help="if the next post is this close, wait for it")
     p.set_defaults(func=cmd_due)
     args = parser.parse_args()
     args.func(args)

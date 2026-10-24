@@ -2,7 +2,7 @@ name: instagram
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   due:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 200
     steps:
       - uses: actions/checkout@v4
       - name: Check Instagram access
@@ -23,7 +23,7 @@ jobs:
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
       - name: Publish due posts
-        run: python3 ig.py due --yes
+        run: python3 ig.py due --yes --lead-minutes 170
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
       - name: Commit logs and pruned media
